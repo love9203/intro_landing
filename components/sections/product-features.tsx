@@ -1,4 +1,4 @@
-import { Layout, Pointer, Zap, Code, Target, LineChart, Phone, Star, LetterText, Mail, GlassWater, Check, ArrowBigRight, CheckCheck, Search } from "lucide-react";
+import { Target, Phone, Star, Mail, Check, Search } from "lucide-react";
 import { Feature108 } from "../ui/feature-108";
 
 const demoData = {

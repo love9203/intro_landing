@@ -1,6 +1,7 @@
 import Link from 'next/link'
 
 export default function CaseStudiesPage() {
+  // These case studies match the available static pages in the directory
   const caseStudies = [
     {
       slug: 'ninetech',
