@@ -39,6 +39,8 @@ jobs:
           static_site_generator: next
       - name: Install dependencies
         run: npm ci --prefer-offline
+        env:
+          NEXT_CACHE_DIR: ${{ github.workspace }}/.next/cache
       - name: Build with Next.js
         run: npm run build
         env:
