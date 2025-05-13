@@ -28,6 +28,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Show config files
+        run: |
+          echo "---- next.config.js ----"
+          cat next.config.js
+          echo "---- postcss.config.js ----"
+          cat postcss.config.js
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
@@ -41,6 +47,8 @@ jobs:
         run: npm ci --prefer-offline
         env:
           NEXT_CACHE_DIR: ${{ github.workspace }}/.next/cache
+      - name: Clear Next.js cache
+        run: rm -rf .next/cache || true
       - name: Build with Next.js
         run: npm run build
         env:
