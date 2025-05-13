@@ -4,6 +4,15 @@ interface CaseStudyPageProps {
   }
 }
 
+export async function generateStaticParams() {
+  // Define the slugs for all case studies
+  const slugs = ['bybrick', 'ninetech', 'ostgotatrafiken', 'sse', 'werlabs'];
+
+  return slugs.map((slug) => ({
+    slug,
+  }));
+}
+
 export default function CaseStudyPage({ params }: CaseStudyPageProps) {
   const { slug } = params;
   

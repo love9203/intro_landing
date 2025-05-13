@@ -1,10 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',  // Enable static exports
-  experimental: {
-    images: {
-      unoptimized: true, // Required for static export
-    },
+  images: {
+    unoptimized: true, // Required for static export
+    remotePatterns: [],
   },
   basePath: '/intro_landing', // Required for GitHub Pages,
   eslint: {
