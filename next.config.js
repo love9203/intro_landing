@@ -3,7 +3,8 @@ const nextConfig = {
   output: 'export',  // Enable static exports
   images: {
     unoptimized: true, // Required for static export
-    remotePatterns: [],
+    loader: 'custom',
+    loaderFile: './image-loader.js',
   },
   basePath: '/intro_landing', // Required for GitHub Pages,
   eslint: {
