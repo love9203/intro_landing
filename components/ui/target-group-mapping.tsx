@@ -1,3 +1,5 @@
-export default function TargetGroupMapping() {
+export function TargetGroupMapping() {
   return null;
 }
+
+export default TargetGroupMapping;
