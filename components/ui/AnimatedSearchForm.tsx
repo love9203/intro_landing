@@ -1,5 +1,2 @@
-export function AnimatedSearchForm() {
-  return null;
-}
-
+export function AnimatedSearchForm() { return null; }
 export default AnimatedSearchForm;

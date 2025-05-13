@@ -49,6 +49,14 @@ jobs:
           NEXT_CACHE_DIR: ${{ github.workspace }}/.next/cache
       - name: Clear Next.js cache
         run: rm -rf .next/cache || true
+      - name: Debug configs
+        run: |
+          echo "=== next.config.js ==="
+          cat next.config.js
+          echo "=== postcss.config.js ==="
+          cat postcss.config.js
+      - name: Build with Next.js cache
+        run: rm -rf .next/cache || true
       - name: Build with Next.js
         run: npm run build
         env:
