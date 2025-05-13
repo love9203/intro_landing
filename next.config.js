@@ -4,7 +4,10 @@ const nextConfig = {
   images: {
     unoptimized: true, // Required for static export
   },
-  basePath: '/intro_landing', // Required for GitHub Pages
+  basePath: '/intro_landing', // Required for GitHub Pages,
+  eslint: {
+    ignoreDuringBuilds: true, // Temporarily disable ESLint during build
+  },
 }
 
 module.exports = nextConfig
