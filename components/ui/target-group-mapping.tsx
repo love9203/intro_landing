@@ -113,3 +113,5 @@ export function TargetGroupMapping({ className }: TargetGroupMappingProps) {
     </div>
   )
 }
+
+export default TargetGroupMapping;

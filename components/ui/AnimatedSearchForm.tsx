@@ -104,3 +104,5 @@ export const AnimatedSearchForm: FC<AnimatedSearchFormProps> = ({
     </div>
   );
 };
+
+export default AnimatedSearchForm;
