@@ -3,8 +3,8 @@
 import React, { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import Image from "next/image"
-import { cn } from "@/lib/utils"
-import Inbox from "@/components/ui/inbox"
+import { cn } from "../../lib/utils"
+import Inbox from "./inbox"
 
 interface Feature {
   step: string

@@ -1,8 +1,8 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@radix-ui/react-tabs";
 import { Layout, Pointer, Zap, Code, Target, LineChart } from "lucide-react";
 
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
+import { Badge } from "../ui/badge";
+import { Button } from "../ui/button";
 
 interface TabContent {
   badge: string;

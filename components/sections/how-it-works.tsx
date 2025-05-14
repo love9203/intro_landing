@@ -1,9 +1,10 @@
 "use client"
 
 import { FeatureSteps } from "../ui/feature-steps";
-import { AnimatedSearchForm } from "@/components/ui/AnimatedSearchForm"
-import { TargetGroupMapping } from "@/components/ui/target-group-mapping"
-import Inbox from "@/components/ui/inbox"
+import AnimatedSearchForm from "../ui/AnimatedSearchForm"
+import TargetGroupMapping from "../ui/target-group-mapping"
+import Image from 'next/image';
+import Inbox from "../ui/inbox"
 
 const mockInboxData = [
   {
@@ -82,7 +83,13 @@ const features = [
     customContent: (
       <div className="absolute inset-0 bg-background flex items-center justify-center py-10 sm:py-12 px-3 sm:px-4">
         <div className="w-[84%]">
-          <img src="/images/platform_images/steg3.png" alt="Step 3" className="w-full h-auto" />
+          <Image 
+            src="/images/platform_images/steg3.png"
+            alt="Step 3"
+            width={800}
+            height={600}
+            className="w-full h-auto"
+          />
         </div>
       </div>
     )
