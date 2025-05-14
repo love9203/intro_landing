@@ -8,20 +8,20 @@ interface TrustedByProps {
 
 export function TrustedBy({ className }: TrustedByProps) {
   const avatars = [
-    '/images/avatars/elina_ninetech.jpeg',
-    '/images/avatars/emelie_strategic9.jpeg',
-    '/images/avatars/emelie_telander_futureordering.jpeg',
-    '/images/avatars/linda_sse.jpg',
-    '/images/avatars/marcus_limetta.jpeg',
-    '/images/avatars/peter_extrapreneur.jpeg',
-    '/images/avatars/simon_lindgren_werlabs.webp',
-    '/images/avatars/sofie_stretch.jpeg',
-    '/images/avatars/tobias-bybrick.jpeg',
-    '/images/avatars/zeraldin_ostgotatrafiken.jpeg'
+    'images/avatars/elina_ninetech.jpeg',
+    'images/avatars/emelie_strategic9.jpeg',
+    'images/avatars/emelie_telander_futureordering.jpeg',
+    'images/avatars/linda_sse.jpg',
+    'images/avatars/marcus_limetta.jpeg',
+    'images/avatars/peter_extrapreneur.jpeg',
+    'images/avatars/simon_lindgren_werlabs.webp',
+    'images/avatars/sofie_stretch.jpeg',
+    'images/avatars/tobias-bybrick.jpeg',
+    'images/avatars/zeraldin_ostgotatrafiken.jpeg'
   ];
 
   const trustpilotRating = {
-    logo: '/images/platform_images/Trustpilot_logo.png',
+    logo: 'images/platform_images/Trustpilot_logo.png',
     rating: '4.2',
     stars: 4.2
   };

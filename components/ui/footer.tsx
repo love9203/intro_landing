@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Logo and Copyright */}
           <div className="space-y-4">
             <Link href="/" className="inline-block">
-              <Image src="/images/intro_logo.svg" alt="Intro" width={80} height={32} />
+              <Image src="images/intro_logo.svg" alt="Intro" width={80} height={32} />
             </Link>
             <p className="text-gray-500 text-sm">2025 all rights reserved</p>
           </div>

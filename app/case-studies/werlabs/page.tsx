@@ -1,3 +1,9 @@
+import Image from 'next/image';
+import { CaseStudyHeader } from "@/components/case-study/case-study-header";
+import { CaseStudyContent } from "@/components/case-study/case-study-content";
+import { CaseStudyResults } from "@/components/case-study/case-study-results";
+import { CaseStudyQuote } from "@/components/case-study/case-study-quote";
+
 export default function WerlabsCaseStudy() {
   return (
     <div className="space-y-8">
@@ -69,10 +75,12 @@ export default function WerlabsCaseStudy() {
         "Intro är partnern för oss att växa med. Deras teknik att hitta och automatisera dialogen med kandidater ihop med Intro-teamets expertis och service gör att vi idag har en väldigt effektiv rekryteringsprocess"
         <footer className="mt-4 text-sm text-gray-500 flex items-center gap-3">
           <div className="flex-shrink-0 w-6 h-6 rounded-full overflow-hidden">
-            <img 
+            <Image 
               src="/images/avatars/sara_werlabs.avif" 
-              alt="Sara Stomerz" 
-              className="w-full h-full object-cover"
+              alt="Sara Werlabs"
+              width={48}
+              height={48}
+              className="w-12 h-12 rounded-full object-cover"
             />
           </div>
           - Sara Stomerz, Head of People & Culture på Werlabs
@@ -145,10 +153,12 @@ export default function WerlabsCaseStudy() {
           "Intro är partnern för oss att växa med. Deras teknik att hitta och automatisera dialogen med kandidater ihop med Intro-teamets expertis och service gör att vi idag har en väldigt effektiv rekryteringsprocess"
           <footer className="mt-4 text-sm text-gray-500 flex items-center gap-3">
           <div className="flex-shrink-0 w-6 h-6 rounded-full overflow-hidden">
-            <img 
+            <Image 
               src="/images/avatars/sara_werlabs.avif" 
-              alt="Sara Stomerz" 
-              className="w-full h-full object-cover"
+              alt="Sara Werlabs"
+              width={48}
+              height={48}
+              className="w-12 h-12 rounded-full object-cover"
             />
           </div>
           - Sara Stomerz, Head of People & Culture på Werlabs

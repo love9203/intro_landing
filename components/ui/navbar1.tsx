@@ -1,6 +1,7 @@
 "use client";
 
 import * as React from "react";
+import Image from 'next/image';
 import { Book, Menu, Sunset, Trees, Zap } from "lucide-react";
 
 import {
@@ -154,7 +155,13 @@ const Navbar1 = ({
         <nav className="hidden items-center justify-between lg:flex">
           <div className="flex items-center gap-8 h-10">
             <a href={logo.url}>
-              <img src={logo.src} className="w-24 h-10" alt={logo.alt} />
+              <Image
+                src={logo.src}
+                alt={logo.alt}
+                width={96}
+                height={40}
+                className="w-24 h-10"
+              />
             </a>
             <div className="flex items-center h-full">
               <NavigationMenu className="my-auto">
@@ -176,7 +183,13 @@ const Navbar1 = ({
         <div className="block lg:hidden">
           <div className="flex items-center justify-between">
             <a href={logo.url}>
-              <img src={logo.src} className="w-24 h-10" alt={logo.alt} />
+              <Image
+                src={logo.src}
+                alt={logo.alt}
+                width={96}
+                height={40}
+                className="w-24 h-10"
+              />
             </a>
             <Sheet>
               <SheetTrigger asChild>
@@ -188,7 +201,13 @@ const Navbar1 = ({
                 <SheetHeader>
                   <SheetTitle>
                     <a href={logo.url}>
-                      <img src={logo.src} className="w-24 h-10" alt={logo.alt} />
+                      <Image
+                src={logo.src}
+                alt={logo.alt}
+                width={96}
+                height={40}
+                className="w-24 h-10"
+              />
                     </a>
                   </SheetTitle>
                 </SheetHeader>

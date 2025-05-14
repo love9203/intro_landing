@@ -11,7 +11,7 @@ const demoData: Gallery4Props = {
       description:
         "Upptäck hur Östgötatrafiken använder Intro för att hitta och attrahera specialister inom embedded systems och AI.",
       href: "/case-studies/ostgotatrafiken",
-      image: "/images/case_studies/ostgotatrafiken_sliced.png",
+      image: "images/case_studies/ostgotatrafiken_sliced.png",
     },
     {
       id: "tailwind",
@@ -19,7 +19,7 @@ const demoData: Gallery4Props = {
       description:
         "Discover how Tailwind CSS transformed the way developers style their applications, offering a utility-first approach that speeds up development while maintaining complete design flexibility.",
       href: "/case-studies/bybrick",
-      image: "/images/case_studies/bybrick.svg",
+      image: "images/case_studies/bybrick.svg",
     },
     {
       id: "astro",
@@ -27,7 +27,7 @@ const demoData: Gallery4Props = {
       description:
         "Se hur Handelshögskolan i Stockholm (HHS) effektiviserade sin tech-rekrytering med hjälp av Intro.",
       href: "/case-studies/sse",
-      image: "/images/case_studies/hhs.svg",
+      image: "images/case_studies/hhs.svg",
     },
     {
       id: "react",
@@ -35,7 +35,7 @@ const demoData: Gallery4Props = {
       description:
         "Upptäck hur Werlabs effektiviserade sin rekryteringsprocess och kunde fokusera på att intervjua kandidater istället för att leta efter dom.",
       href: "/case-studies/werlabs",
-      image: "/images/case_studies/werlabs.svg",
+      image: "images/case_studies/werlabs.svg",
     },
     {
       id: "nextjs",
@@ -43,7 +43,7 @@ const demoData: Gallery4Props = {
       description:
         "Explore how Next.js has become the go-to framework for building full-stack React applications, offering features like server components, file-based routing, and automatic optimization.",
       href: "/case-studies/ninetech",
-      image: "/images/case_studies/ninetech_new.svg",
+      image: "images/case_studies/ninetech_new.svg",
     },
   ],
 };

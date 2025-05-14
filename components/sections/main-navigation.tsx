@@ -6,9 +6,9 @@ import { Book, Sunset, Trees, Zap } from "lucide-react";
 const demoData: Navbar1Props = {
   logo: {
     url: "/",
-    src: "/images/intro_logo.svg",
-    alt: "Your Company",
-    title: "Your Company",
+    src: "images/intro_logo.svg",
+    alt: "Intro",
+    title: "Intro",
   },
   menu: [
     {
